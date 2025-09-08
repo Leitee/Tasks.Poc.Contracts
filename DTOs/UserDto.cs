@@ -5,4 +5,4 @@ public record UserDto(
     string Name,
     string Email,
     DateTime CreatedAt,
-    DateTime? LastLoginAt);
+    DateTime? LastLoginAt) : IDto;

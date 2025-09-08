@@ -9,4 +9,4 @@ public record TodoItemDto(
     DateTime CreatedAt,
     DateTime? CompletedAt,
     DateTime? DueDate,
-    bool IsOverdue);
+    bool IsOverdue) : IDto;

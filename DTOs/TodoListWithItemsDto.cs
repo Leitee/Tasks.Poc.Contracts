@@ -13,4 +13,4 @@ public record TodoListWithItemsDto(
     int OverdueItems,
     double CompletionPercentage,
     bool IsCompleted,
-    IEnumerable<TodoItemDto> Items);
+    IEnumerable<TodoItemDto> Items) : IDto;

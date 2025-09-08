@@ -12,4 +12,4 @@ public record TodoListDto(
     int PendingItems,
     int OverdueItems,
     double CompletionPercentage,
-    bool IsCompleted);
+    bool IsCompleted) : IDto;
